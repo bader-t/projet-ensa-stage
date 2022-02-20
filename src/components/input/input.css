@@ -1,0 +1,22 @@
+.inputContainer {
+  width: 100%;
+  height: 50px;
+  margin-bottom: 30px;
+}
+input {
+  width: 100%;
+  height: 100%;
+  padding: 20px 0 20px 20px;
+  font-size: 18px;
+  border: solid 2px var(--primary-color);
+  border-radius: 7px;
+}
+::placeholder {
+  color: var(--primary-color);
+}
+
+.inputForm {
+  width: 400px;
+  height: 50px;
+  margin-bottom: 20px;
+}
