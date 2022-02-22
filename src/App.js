@@ -1,12 +1,12 @@
 import React from "react";
-import { Page0 } from "./pages";
+import { Page2 } from "./pages";
 
 
 
 const App = () => (
 
 
-    <Page0></Page0>
+    <Page2></Page2>
 );
 
 
