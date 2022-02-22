@@ -1,26 +1,26 @@
 import React from "react";
 import './page1.css';
-import { Card,Container } from '../../../containers';
+import { Card, Container } from '../../../containers';
 import { Input, Button } from '../../../components';
 
 
 
 const Page1 = () => (
     <Container>
-        <Card>
+        <Card styles={{ Card: "card" }}>
 
-        
+
             <div className="left-container">
 
                 <h1>S'identifier</h1>
                 <div>
                     <Input design="inputContainer" type="text" placeholder="Email" name="email"></Input>
-                    <Input  design="inputContainer" type="password" placeholder="Mot de passe" name="motdepasse"></Input>
-                    <Button  design="inputContainer" type="primary-btn" title="S'identifier" value="none"></Button>
+                    <Input design="inputContainer" type="password" placeholder="Mot de passe" name="motdepasse"></Input>
+                    <Button design="inputContainer" type="primary-btn" title="S'identifier" value="none"></Button>
 
                     <p >
                         Vous n'avez pas de compte?
-                        <a  href="#">
+                        <a href="#">
                             Inscrivez-vous
                         </a>
                     </p>

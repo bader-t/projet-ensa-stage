@@ -6,7 +6,7 @@ import { Card, Container } from '../../containers';
 const Page0 = () =>
 (
   <Container>
-    <Card>
+    <Card styles={{ Card: "card" }}>
 
       <div className="left-container">
         <a href="/">
@@ -21,7 +21,7 @@ const Page0 = () =>
 
       <div className="right-container">
         <a href="/">
-          <img  className="effect"
+          <img className="effect"
             src="./entreprise.svg" alt="icon entreprise"
           />
         </a>
