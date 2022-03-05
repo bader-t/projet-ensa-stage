@@ -14,3 +14,13 @@
 .card-flex-direction {
   flex-direction: column;
 }
+
+
+
+.card2 {
+  box-shadow: 0px 0px 50px rgba(0, 0, 0, 0.07);
+  border-radius: 20px;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 40px;
+}

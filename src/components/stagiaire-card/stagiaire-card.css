@@ -1,0 +1,59 @@
+.stagiairecard-container{
+    width: 100%;
+    display: flex;
+    justify-content: space-evenly;
+    border: 0.5px solid gray;
+    border-radius: 10px;
+    padding: 5px;
+    margin-bottom:10px ;
+    padding-top: 10px;
+}
+.stagiairecard-infos{
+    width: 85%;
+    overflow-wrap: break-word;
+
+}
+.stagiairecard-user {
+    display: flex;
+    flex-direction: column;
+    width: 10%;
+    overflow-wrap: break-word;
+
+}
+.stagiairecard-user-card{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border: 0.5px solid gray;
+    padding: 5px;
+    width: 100%;
+    
+}
+.stagiairecard-user-card img{
+    width: 80%;
+}
+.stagiairecard-title{
+    display: flex;
+    justify-content: space-between;
+}
+.stagiairecard-title > p{
+    width: 30%;
+}
+.stagiairecard-title > h4{
+    width: 50%;
+}
+
+.stagiairecard-buttons{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.stagiairecard-buttons div{
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+}
+
+
