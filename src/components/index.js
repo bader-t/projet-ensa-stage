@@ -8,4 +8,4 @@ export { default as Table } from './table/Table';
 export { default as Wrapper } from './wrapper/Wrapper';
 export { default as StagiaireCard  } from './stagiaire-card/StagiaireCard';
 export { default as RechercheStagiaire  } from './rechercheStagiaire/RechercheStagiaire';
-
+export { default as DemandeStage  } from './demandeStage/DemandeStage';

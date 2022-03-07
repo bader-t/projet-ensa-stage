@@ -7,3 +7,4 @@ export { default as Page0 } from './home-page/Page0';
 export {default as Page2} from './stagiaire/page2/Page2';
 
 export {default as Page16} from './entreprise/page16/Page16'
+export {default as Page9} from './stagiaire/page9/Page9'
