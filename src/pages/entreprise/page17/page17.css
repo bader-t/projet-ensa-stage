@@ -1,0 +1,135 @@
+.cont {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  border-top: solid 2px rgb(220, 220, 220);
+  /*border-bottom: solid 2px rgb(220,220,220);*/
+  height: 50px;
+}
+.rien {
+  border-top: solid 2px rgb(220, 220, 220);
+}
+a:hover > img {
+  filter: invert(58%) sepia(66%) saturate(373%) hue-rotate(146deg)
+    brightness(87%) contrast(96%);
+}
+.cont:hover {
+  color: #42a7c3;
+  border-left: solid 4px #42a7c3;
+}
+
+.quit > a:hover {
+  color: #42a7c3;
+}
+.cont > a:hover {
+  color: #42a7c3;
+}
+.ain {
+  color: rgb(82, 82, 82);
+  padding: 10pt;
+}
+.effect {
+  margin-right: 15pt;
+  position: relative;
+  top: 10px;
+}
+p {
+  top: 0;
+}
+
+.quit {
+  border-top: solid 2px rgb(220, 220, 220);
+  border-bottom: solid 2px rgb(220, 220, 220);
+  margin-bottom: 30px;
+
+  color: rgb(82, 82, 82);
+  bottom: 0px;
+  display: flex;
+  justify-content: center;
+  position: relative;
+  align-items: center;
+  top: 53%;
+  width: 100%;
+}
+
+.card-position-top {
+  width: 100%;
+  height: 70%;
+  margin-bottom: 40px;
+  display: block;
+  padding: 20px;
+}
+.btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 15px;
+}
+.one {
+  display: block;
+  padding-top: 40px;
+
+  padding: 0px;
+}
+.first-div {
+  display: flex;
+  justify-content: space-around;
+  padding: 0px;
+}
+input {
+  height: 20px;
+  width: 90%;
+  color: rgb(82, 82, 82);
+  border: solid 2px var(--secondary-color);
+}
+
+::placeholder {
+  color: var(--secondary-color);
+}
+.choix {
+  color: var(--secondary-color);
+  height: 43px;
+  width: 90%;
+  padding: 10px 0 10px 10px;
+  font-size: 15px;
+  border: solid 2px var(--secondary-color);
+  border-radius: 7px;
+}
+.part2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+}
+.part2 input:nth-child(2) {
+  width: 20px;
+}
+#desc {
+  height: 80px;
+  font-size: 10px;
+  padding-top: 0;
+}
+.card-position-width {
+  padding: 20px;
+  display: block;
+  height: 30%;
+  width: 100%;
+}
+table {
+  margin: 20px;
+  width: 90%;
+}
+td, th /* Mettre une bordure sur les td ET les th */ {
+  border: 1px solid var(--secondary-color);
+  height: 40px;
+  text-align: center;
+}
+td > a {
+  font-size: 13px;
+  color: var(--premary-color);
+}
+.link {
+  transform: scaleX(-1);
+  height: 15px;
+  width: 15px;
+  margin-left: 5px;
+}
