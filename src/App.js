@@ -8,7 +8,7 @@ import { Page16 } from "./pages";
 const App = () => (
 
 
-    <Page16></Page16>
+    <Page4></Page4>
 );
 
 
