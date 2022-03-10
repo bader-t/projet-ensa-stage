@@ -6,4 +6,6 @@ export { default as ProfilePhoto } from './profile-photo/ProfilePhoto';
 export { default as BackgroundPhoto } from './background-photo/BackgroundPhoto';
 export { default as Table } from './table/Table';
 export { default as Wrapper } from './wrapper/Wrapper';
-//export { default as StagiaireCard } from './stagiaire-card/StagiaireCard';
+export { default as StagiaireCard  } from './stagiaire-card/StagiaireCard';
+export { default as RechercheStagiaire  } from './rechercheStagiaire/RechercheStagiaire';
+
