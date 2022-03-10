@@ -70,7 +70,7 @@ const Page17 = () => (
                         <input type="checkbox"/>
                 
                         <p>Description</p>
-                        <input type="textearea" id="desc" placeholder="description"/>
+                        <textearea  id="desc">description</textearea>
                     </div>
                     <div className="btn">
                     <Button title="Créer" type="secondary-btn" ></Button>
