@@ -13,17 +13,3 @@
   cursor: pointer;
   filter: contrast(110%);
 }
-.secondary-btn {
-  background-color: var(--primary-color);
-  width: 15%;
-  height: 35px;
-  color: white;
-  border: none;
-  border-radius: 7px;
-  font-size: 18px;
-  margin-bottom: 28px;
-}
-.secondary-btn:hover {
-  cursor: pointer;
-  filter: contrast(110%);
-}

@@ -1,16 +1,15 @@
 import React from "react";
-import { Page1, Page17, Page4,Page16 } from "./pages";
-//import {Page17} from "./pages/entreprise/page17";
-
+import { Page2, PagePdf } from "./pages";
+import { Page4 } from "./pages";
+import { Page16 } from "./pages";
 
 
 
 const App = () => (
 
-//<Page13>page 17</Page13>    
-<Page17></Page17>  
-//<Page4></Page4>
+    <PagePdf></PagePdf>
+    //<Page16></Page16>
+
 );
-
-
 export default App;
+
